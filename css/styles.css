@@ -1,0 +1,123 @@
+.jumbotron{
+  background-color: rgba(3, 149, 255, 0.1);
+}
+.navbar{
+  background-color: transparent !important;
+  height: 80px;
+}
+.help{
+  background-color: #0000ff;
+}
+.help2{
+  background-color: #13e0ff;
+}
+.item img {
+  width:100%
+}
+.jumbome{
+  padding-top: 7px;
+  background-color: rgba(3, 149, 255, 0.1);
+}
+.brand-title{
+  font-size: 65px;
+  font-family: 'Nunito', sans-serif;
+  color : #146eaa;
+}
+.brand-subtitle{
+  font-family: 'Nunito', sans-serif;
+  color : #164e73;
+  font-size: 30px;
+}
+.link{
+  font-family: 'Nunito', sans-serif;
+  color: #000000;
+  text-decoration: none !important;
+}
+.link:hover{
+  color : #146eaa;
+}
+.k{
+  font-size: 45px;
+  font-family: 'Nunito', sans-serif;
+  color: #000000;
+  text-decoration: none !important;
+}
+.blueblock{
+  background-color: rgba(7, 116, 249, 1);
+  border-radius:10px;
+  padding: 50px;
+  height: 250px;
+  vertical-align: middle;
+}
+.homeA{
+  color: #ffffff;
+  position: relative;
+  margin-top: 20px;
+}
+.homeA:hover{
+  color: rgba(0, 0, 0, 1);
+}
+
+.triangle {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-left: 125px solid transparent;
+  border-right: 125px solid transparent;
+  border-bottom:250px solid black;
+  border-bottom-color: rgb(240,200,0);
+  color:rgb(240,200,0);
+  border-radius: 25px;
+}
+.triangle-text{
+  position: relative;
+  color:rgb(240,200,0);
+}
+.circlee{
+  border-radius: 50%;
+  background-color: rgb(20,110,170);
+  height: 250px;
+  width: 250px;
+}
+.circlee-text{
+  color:rgb(20,110,170);
+}
+.square{
+  background-color: rgb(320,50,40);
+  height: 250px;
+  width: 250px;
+  border-radius: 20px;
+}
+.square-text{
+  color:rgb(320,50,40);
+}
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.background{
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+.texto{
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  color: #000000;
+  text-decoration: none !important;
+}
+.text{
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  color: #000000;
+  text-decoration: none !important;
+}
+.texto:hover{
+  color: #6A5E02;
+}
+.text-box{
+  margin: 30px;
+  font-size: 16pt;
+  line-height: 30pt;
+}
+.nivalderramas{
+  background-image:"img/cancha.jpg";
+}

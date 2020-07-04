@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Mono&family=Nunito:wght@700&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="navbar-cool">
+      <nav class="navbar navbar-expand">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" height="45"></a>
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="navbar-item active">
+            <a class="nav-link"href="#">About</a>
+          </li>
+          <li>
+            <a class="nav-link"href="#">Portfolio</a>
+          </li>
+          <li>
+            <a class="nav-link"href="#">Blog</a>
+          </li>
+          <li>
+            <a class="nav-link"href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="text-center brand-title">
+        <h1><b>A new adaptive videogame for training attention and executive functions: design principles and initial validation</b></h1>
+      </div>
+      <div class="text-justify text-box">
+        <h4><br><b>Introduction:</b></h4>
+        <p>We can find out that people who play videogames (gamers) are often related to have better cognitive skills, reflexes, attention and make faster decisions than people who are not a gamer. It implies that video games are capable to enhance people’s cognitive skills. Also people who suffer traumatic brain injury experiments cognitive issues, can not stay focused for medium or long periods of time. This study aims to develop an adaptive videogame controlled by a multidimensional algorithm that measures the player’s performance and adjusts automatically the difficult to raise player’s abilities.</p>
+        <h4><b>Game design:</b></h4>
+        <p>The game was developed following next three basic principles:</p>
+        <ul>
+          <li>Mental flexibility: which is the ability to quickly change the activity you are doing, this is the part where people often get stuck because it needs to rewire your brain in a little bit of time, in the game this was achieved by using two game modes that were changing according to the game’s algorithm</li>
+          <li>Multitasking: a player is able to manage while doing more than one activity, it means that the player needs to split its concentration and execute two or more tasks at the same time, which demands more concentration and mental energy. Sometimes when the player has a good performance over the game it is auto-adjusted to demand the player to perform two tasks at once.</li>
+          <li>Planning and managing unexpected situations: sometimes the player might be dealing with an unknown mechanic or needs to find the fastest path to achieve the game’s purpose, so at the beginning of each level it is needed to analyze and plan how the level is going to be performed and if something gets wrong keep going to achieve the final goal.</li>
+        </ul>
+        <p>The game includes two different tasks. The snake task where the goal is to avoid be caught by a snake and reach a shelter that protects you, and the diamond task where the goal is to collect all diamonds before the time runs up. Each task is provided with 8 difficult levels and the algorithm will adjust the time, diamond position, snake’s velocity and maze’s disposition according to the player’s performance.</p>
+        <h4><b>Adaptative dimensions:</b></h4>
+        <p>To auto-adjust the difficult, the videogame uses three difficult “dimensions”, where each one is an spatial axis and together composes a cube the “training space”, this dimensions are:</p>
+        <div class="row">
+          <div class="col-12 col-md-6 d-flex align-items-center">
+            <ul>
+              <li>The time limit to complete the task.</li>
+              <li>Task difficulty (Between 1-8).</li>
+              <li>Switch condition: The type of shift task (predictable vs unpredictable)</li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 text-center">
+            <img class="img-fluid" src="img/writtins/videogameTraining.jpg" alt="">
+            <font size="3"><a href="[Source Image: https://www.frontiersin.org/articles/10.3389/fpsyg.2014.00409/full]">Source Image</a></font>
+          </div>
+        </div>
+        <p>“Every trial corresponds to a point within this cube (with the coordinates defined by the values of the three difficulty dimensions) and every point is associated with a certain probability of success. Higher probability is associated with easy trials and the opposite for the hard trials. Each user will be associated with a different probability of success matrix that defines the individual “performance space”.”</p>
+        <h4><br><b>Validation of the game:</b></h4>
+        <p>The goal was validate the game’s functionality, there was used an unimpaired adults group, every participant had to play 40 minutes daily for 14 days, also were used three types of score to had a more precise analysis: success rate, overall time, and the time needed to collect the first diamond per level (Diamond time).
+During the first playing session the results were saved to compare it with the end results
+The results are evident, after the data analysis that it implies, the numbers talk by themselves, the three score types improved significantly both in the training session and the switching task session, all the participants improved their skills, and registered shorter times and higher scores.</p>
+        <h4><br><b>Conclusion:</b></h4>
+        <p>Having a good performance at this kind of games, involves some skills like selecting relevant information and discarding the irrelevant, thinking quickly and recognizing the environment. The article has obtained significant information about how videogames enhance player’s performance and trains it in a relatively short period of time. The next step is test the videogame in a clinical with TBI patients to demonstrate if it is able to help the patients on its treatment.</p>
+        <h5><br><b><a href="https://www.frontiersin.org/articles/10.3389/fpsyg.2014.00409/full">Original Article</a></b></h5>
+      </div>
+    </div>
+  </body>
+</html>
