@@ -1,10 +1,6 @@
 .jumbotron{
   background-color: rgba(3, 149, 255, 0.1);
 }
-.navbar{
-  background-color: transparent !important;
-  height: 80px;
-}
 .help{
   background-color: #0000ff;
 }
@@ -120,5 +116,28 @@
 }
 .nivalderramas{
   background-image:"img/cancha.jpg";
-  width: 97%;
+}
+.invertir{
+  filter: invert(1);
+}
+.navbar-nivalderramas{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  height: 80px;
+}
+.navbar-link{
+  font-family: 'Nunito', sans-serif;
+  color: rgb(255, 255, 255);
+  text-decoration: none !important;
+  font-size: 20px;
+  margin-left: 15px;
+}
+.navbar-link:hover{
+  color:rgb(3, 149, 255);
+}
+.blue{
+  background-color: rgba(3, 149, 255, 0.1);
+}
+.white{
+  background-color: rgba(255, 255, 255, 0);
 }
